@@ -1,0 +1,84 @@
+streamlit
+pandas
+numpy
+scikit-learn
+plotly
+scipy
+fpdf
+geopandas
+pyogrio
+
+baffleview-ai/
+│
+├── .streamlit/
+│   └── config.toml           # Configures app theme (dark mode) and server ports
+│
+├── assets/                   # Static media directory
+│   ├── logo_teal_gold.png    # App branding icon
+│   ├── wolfcamp_a_silt.jpg   # Digital core photograph references
+│   └── spraberry_hetero.jpg  # Digital core photograph references
+│
+├── src/                      # Core backend algorithmic modules
+│   ├── __init__.py           # Makes folder a recognizable Python package
+│   ├── engine_sr.py          # Super-resolution 1D CNN / Random Forest model
+│   └── ccs_calculator.py     # Volumetric CO2 sequestration equations
+│
+├── app.py                    # Main Streamlit UI frontend dashboard execution file
+├── validate_log.py           # Offline pre-flight data valuation and scrubbing script
+├── generate_test_data.py     # Script to generate sample East Ford field CSV logs
+├── requirements.txt          # Explicit server package dependency listing
+├── White_Paper.md            # Technical white paper and mathematical references
+└── README.md                 # Project Overview, deployment guide, and mapping matrix
+
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.18.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+geopandas>=0.14.0
+pyogrio>=0.7.2
+fpdf2>=2.7.0
+
+baffleview-ai/
+│
+├── src/
+│   ├── __init__.py
+│   ├── engine_sr.py
+│   ├── ccs_calculator.py
+│   ├── multi_well.py       # NEW: Automated Cross-Section & DTW Correlation
+│   └── seismic_inv.py      # NEW: 1D Post-Stack Acoustic Impedance Inversion
+
+
+fastdtw>=0.3.4
+
+
+snowflake-connector-python>=3.7.0
+
+
+
+
+baffleview-ai/
+│
+├── .streamlit/
+│   └── config.toml           # UI Hex styling, layout parameters, dark-mode configuration
+│
+├── assets/                   # Ephemeral reference library & validated core imagery
+│   ├── logo_teal_gold.png    
+│   ├── wolfcamp_a_silt.jpg   
+│   └── spraberry_hetero.jpg  
+│
+├── src/                      # Algorithmic Compute Microservices
+│   ├── __init__.py           
+│   ├── engine_sr.py          # Super-Resolution log sharpening neural network
+│   ├── ccs_calculator.py     # Volumetric supercritical CO2 capacity equations
+│   ├── multi_well.py         # Automated field-wide Dynamic Time Warping (DTW) correlation
+│   ├── seismic_inv.py        # Post-stack 1D Acoustic Impedance & Ricker wave convolution
+│   └── db_connector.py       # Snowflake Data Cloud active query & ingestion pipeline
+│
+├── app.py                    # Streamlit UI front-end interactive orchestration hub
+├── validate_log.py           # Offline pre-flight data valuation and metadata scrub tool
+├── generate_test_data.py     # Synthetic log simulation script for localized testing
+└── requirements.txt          # Standardized container environment package dependencies
+
+
