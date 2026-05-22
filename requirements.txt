@@ -8,9 +8,6 @@ fpdf
 geopandas
 pyogrio
 
-fastdtw
-
-snowflake
 
 
 
