@@ -8,16 +8,12 @@ fpdf
 geopandas
 pyogrio
 
-
-
-
 fastdtw
 
-
-snowflake-connector-python
-
+snowflake
 
 
-pip freeze > requirements.txt
+
+
 
 
