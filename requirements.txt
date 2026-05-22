@@ -11,10 +11,6 @@ pyogrio
 
 
 
-
-
-
-
 fastdtw
 
 
@@ -22,6 +18,6 @@ snowflake-connector-python
 
 
 
-
+pip freeze > requirements.txt
 
 
